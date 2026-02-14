@@ -1,73 +1,158 @@
-# Welcome to your Lovable project
+# Portfolio - Nguyen Thanh Nam
 
-## Project info
+Personal portfolio website of **Nguyen Thanh Nam** - Solution Engineer & Cloud Architect, specializing in scalable data systems, AI-driven platforms, and cloud-native architecture.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 🚀 Overview
 
-## How can I edit this code?
+A modern portfolio website built with Next.js, showcasing projects, technical expertise, and experience in Solution Engineering and Cloud Architecture.
 
-There are several ways of editing your application.
+## ✨ Features
 
-**Use Lovable**
+- 🎨 **Modern UI/UX** - Beautiful interface with smooth animations
+- 📱 **Responsive Design** - Optimized for all devices
+- ⚡ **Performance** - Optimized with Next.js App Router
+- 🎭 **Dark Mode** - Dark theme support with next-themes
+- 🎯 **Interactive Components** - Interactive components with Framer Motion
+- 📊 **Project Showcase** - Featured projects display
+- 💼 **Technical Expertise** - Skills and expertise showcase
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 🛠️ Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+### Core
+- **[Next.js 15](https://nextjs.org/)** - React framework with App Router
+- **[TypeScript](https://www.typescriptlang.org/)** - Type-safe JavaScript
+- **[React 18](https://react.dev/)** - UI library
 
-**Use your preferred IDE**
+### Styling & UI
+- **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS framework
+- **[shadcn/ui](https://ui.shadcn.com/)** - Re-usable components built with Radix UI
+- **[Framer Motion](https://www.framer.com/motion/)** - Animation library
+- **[Lucide React](https://lucide.dev/)** - Icon library
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### State Management & Data
+- **[TanStack Query](https://tanstack.com/query)** - Data fetching and caching
+- **[React Hook Form](https://react-hook-form.com/)** - Form management
+- **[Zod](https://zod.dev/)** - Schema validation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Other Libraries
+- **[next-themes](https://github.com/pacocoursey/next-themes)** - Theme management
+- **[Sonner](https://sonner.emilkowal.ski/)** - Toast notifications
+- **[Recharts](https://recharts.org/)** - Chart library
 
-Follow these steps:
+## 📦 Installation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+### Prerequisites
+- Node.js 18+ and npm/yarn/pnpm
+- Git
+
+### Setup Steps
+
+1. **Clone the repository**
+```bash
 git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+cd nam-s-architecture
 ```
 
-**Edit a file directly in GitHub**
+2. **Install dependencies**
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+3. **Run the development server**
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
 
-**Use GitHub Codespaces**
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📜 Available Scripts
 
-## What technologies are used for this project?
+- `npm run dev` - Start development server
+- `npm run build` - Build the application for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint to check code quality
+- `npm run test` - Run tests
+- `npm run test:watch` - Run tests in watch mode
 
-This project is built with:
+## 📁 Project Structure
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```
+nam-s-architecture/
+├── app/                    # Next.js App Router
+│   ├── layout.tsx         # Root layout
+│   ├── page.tsx           # Home page
+│   ├── not-found.tsx      # 404 page
+│   ├── providers.tsx      # Global providers
+│   └── globals.css        # Global styles
+├── src/
+│   ├── components/        # React components
+│   │   ├── ui/           # shadcn/ui components
+│   │   └── ...           # Custom components
+│   ├── hooks/            # Custom React hooks
+│   └── lib/              # Utility functions
+├── public/                # Static assets
+├── next.config.js         # Next.js configuration
+├── tailwind.config.ts     # Tailwind CSS configuration
+├── tsconfig.json          # TypeScript configuration
+└── package.json           # Dependencies
+```
 
-## How can I deploy this project?
+## 🚢 Deployment
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+### Vercel (Recommended)
 
-## Can I connect a custom domain to my Lovable project?
+This project is optimized for Vercel:
 
-Yes, you can!
+1. Push your code to GitHub
+2. Import your project to [Vercel](https://vercel.com)
+3. Vercel will automatically detect and deploy
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### Other Platforms
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- **Netlify** - Supports Next.js out of the box
+- **AWS Amplify** - Deploy with CI/CD
+- **Docker** - Build and deploy with containers
+
+## 🎨 Customization
+
+### Updating Content
+
+- Edit components in `src/components/` to update sections
+- Modify `app/page.tsx` to change the homepage layout
+- Update metadata in `app/layout.tsx`
+
+### Styling
+
+- Global styles: `app/globals.css`
+- Tailwind config: `tailwind.config.ts`
+- Component styles: Use Tailwind classes in components
+
+### Theme
+
+The project uses `next-themes` for theme management. Default theme is set to dark mode in `app/providers.tsx`.
+
+## 📝 License
+
+This is a personal portfolio project. You can reference the code, but please do not copy the entire design and content.
+
+## 📧 Contact
+
+**Nguyen Thanh Nam**  
+Solution Engineer & Cloud Architect
+
+- Portfolio: [Your Website URL]
+- LinkedIn: [Your LinkedIn]
+- GitHub: [Your GitHub]
+- Email: [Your Email]
+
+---
+
+⭐ If you find this project helpful, please star this repo!
