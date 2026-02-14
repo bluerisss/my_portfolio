@@ -2,15 +2,11 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { forwardRef } from "react";
+import { forwardRef, type ComponentPropsWithoutRef } from "react";
 import { cn } from "@/lib/utils";
 
-interface NavLinkProps {
-  href: string;
-  className?: string;
+interface NavLinkProps extends ComponentPropsWithoutRef<typeof Link> {
   activeClassName?: string;
-  children?: React.ReactNode;
-  [key: string]: unknown;
 }
 
 const NavLink = forwardRef<HTMLAnchorElement, NavLinkProps>(
