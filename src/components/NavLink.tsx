@@ -10,7 +10,7 @@ interface NavLinkProps {
   className?: string;
   activeClassName?: string;
   children?: React.ReactNode;
-  [key: string]: any;
+  [key: string]: unknown;
 }
 
 const NavLink = forwardRef<HTMLAnchorElement, NavLinkProps>(

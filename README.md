@@ -49,7 +49,7 @@ A modern portfolio website built with Next.js, showcasing projects, technical ex
 
 1. **Clone the repository**
 ```bash
-git clone <YOUR_GIT_URL>
+git clone git@github.com:bluerisss/my_portfolio.git
 cd nam-s-architecture
 ```
 
@@ -149,9 +149,9 @@ This is a personal portfolio project. You can reference the code, but please do 
 Solution Engineer & Cloud Architect
 
 - Portfolio: [Your Website URL]
-- LinkedIn: [Your LinkedIn]
-- GitHub: [Your GitHub]
-- Email: [Your Email]
+- LinkedIn: https://www.linkedin.com/in/nam-nguyen-571859227/
+- GitHub: https://github.com/bluerisss
+- Email: ntnam7399@gmail.com
 
 ---
 
