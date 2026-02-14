@@ -9,9 +9,9 @@ const ContactSection = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   const links = [
-    { icon: Mail, label: "Email", href: "mailto:nam@example.com", text: "nam@example.com" },
-    { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com/in/nguyenthanhnam", text: "linkedin.com/in/nguyenthanhnam" },
-    { icon: Github, label: "GitHub", href: "https://github.com/nguyenthanhnam", text: "github.com/nguyenthanhnam" },
+    { icon: Mail, label: "Email", href: "mailto:ntnam7399@gmail.com", text: "ntnam7399@gmail.com" },
+    { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com/in/nam-nguyen-571859227/", text: "linkedin.com/in/nam-nguyen-571859227/" },
+    { icon: Github, label: "GitHub", href: "https://github.com/bluerisss", text: "github.com/bluerisss" },
   ];
 
   return (

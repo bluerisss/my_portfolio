@@ -148,8 +148,8 @@ This is a personal portfolio project. You can reference the code, but please do 
 **Nguyen Thanh Nam**  
 Solution Engineer & Cloud Architect
 
-- Portfolio: [Your Website URL]
-- LinkedIn: https://www.linkedin.com/in/nam-nguyen-571859227/
+- Portfolio: https://blueriss.vercel.app
+- LinkedIn: https://www.linkedin.com/in/nam-nguyen-571859227
 - GitHub: https://github.com/bluerisss
 - Email: ntnam7399@gmail.com
 
