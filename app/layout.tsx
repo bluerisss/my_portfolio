@@ -3,12 +3,12 @@ import "./globals.css";
 import { Providers } from "./providers";
 
 export const metadata: Metadata = {
-  title: "Nguyen Thanh Nam — Solution Engineer & Cloud Architect",
-  description: "Senior Solution Engineer and Cloud Architect specializing in scalable data systems, AI-driven platforms, and cloud-native architecture.",
+  title: "Nguyen Thanh Nam — Software Engineer",
+  description: "Designing scalable data systems and AI-driven platforms with a focus on reliability, cost efficiency, and real-world impact. Full stack engineer, distributed architectures, data engineering, API ecosystems, and cloud-native systems.",
   authors: [{ name: "Nguyen Thanh Nam" }],
   openGraph: {
-    title: "Nguyen Thanh Nam — Solution Engineer & Cloud Architect",
-    description: "Designing scalable data systems and AI-driven platforms with reliability and real-world impact.",
+    title: "Nguyen Thanh Nam — Software Engineer",
+    description: "Designing scalable data systems and AI-driven platforms with a focus on reliability, cost efficiency, and real-world impact. Full stack engineer, distributed architectures, data engineering, API ecosystems, and cloud-native systems.",
     type: "website",
     images: ["https://nam-s-architecture.vercel.app/opengraph-image-p98pqg.png"],
   },

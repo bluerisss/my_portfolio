@@ -2,7 +2,7 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Mail, Linkedin, Github } from "lucide-react";
+import { Mail, Linkedin, Github, Phone } from "lucide-react";
 
 const ContactSection = () => {
   const ref = useRef(null);
@@ -10,6 +10,7 @@ const ContactSection = () => {
 
   const links = [
     { icon: Mail, label: "Email", href: "mailto:ntnam7399@gmail.com", text: "ntnam7399@gmail.com" },
+    { icon: Phone, label: "Phone", href: "tel:+84368897065", text: "+84 368 897 065" },
     { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com/in/nam-nguyen-571859227/", text: "linkedin.com/in/nam-nguyen-571859227/" },
     { icon: Github, label: "GitHub", href: "https://github.com/bluerisss", text: "github.com/bluerisss" },
   ];
@@ -30,7 +31,7 @@ const ContactSection = () => {
             Let's Build Something
           </h2>
           <p className="text-muted-foreground mb-12 leading-relaxed">
-            Open to discussing system architecture, cloud strategy, and AI integration challenges.
+            Open to discussing full-stack development, distributed architectures, data engineering, API ecosystems, and cloud-native systems.
           </p>
 
           <div className="space-y-4">

@@ -1,10 +1,10 @@
 # Portfolio - Nguyen Thanh Nam
 
-Personal portfolio website of **Nguyen Thanh Nam** - Solution Engineer & Cloud Architect, specializing in scalable data systems, AI-driven platforms, and cloud-native architecture.
+Personal portfolio website of **Nguyen Thanh Nam** - Software Engineer, Full Stack Developer / Backend Specialist with 5 years of experience in designing and developing large-scale web applications.
 
 ## 🚀 Overview
 
-A modern portfolio website built with Next.js, showcasing projects, technical expertise, and experience in Solution Engineering and Cloud Architecture.
+A modern portfolio website built with Next.js, showcasing projects, technical expertise, and experience in Full Stack Development, Backend Architecture, and Team Leadership.
 
 ## ✨ Features
 
@@ -146,12 +146,14 @@ This is a personal portfolio project. You can reference the code, but please do 
 ## 📧 Contact
 
 **Nguyen Thanh Nam**  
-Solution Engineer & Cloud Architect
+Software Engineer - Full Stack Developer / Backend Specialist
 
 - Portfolio: https://blueriss.vercel.app
 - LinkedIn: https://www.linkedin.com/in/nam-nguyen-571859227
 - GitHub: https://github.com/bluerisss
 - Email: ntnam7399@gmail.com
+- Phone: 0368897065
+- Location: Hanoi, Vietnam
 
 ---
 

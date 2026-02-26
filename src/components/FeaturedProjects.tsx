@@ -6,25 +6,45 @@ import { ArrowUpRight } from "lucide-react";
 
 const projects = [
   {
-    name: "Enterprise Data Pipeline Platform",
-    stack: ["Ruby on Rails", "Kafka", "PostgreSQL", "AWS", "Docker"],
-    description: "Built a real-time data processing platform handling 50M+ daily events with 99.99% uptime, reducing data processing costs by 35%.",
+    name: "Enterprise Financial Health Analytics Platform",
+    stack: ["Ruby on Rails", "MySQL", "NestJs", "NextJs", "GraphQL", "gRPC", "AWS", "Docker", "CI/CD"],
+    description: "Contributed to building the foundational microservices architecture and designed the system infrastructure for enterprise financial analytics.",
   },
   {
     name: "AI-Powered Document Intelligence",
-    stack: ["Python", "OpenAI", "pgvector", "FastAPI", "React"],
-    description: "Designed and deployed a RAG-based system that processes 500K+ documents, enabling natural language queries with 94% accuracy.",
+    stack: ["Python", "AI Models", "pgvector", "FastAPI", "ReactJS", "AWS"],
+    description: "Designed and deployed a RAG-based system that processes 50K+ documents, enabling natural language queries with >80% accuracy.",
   },
   {
-    name: "Multi-Region Cloud Infrastructure",
-    stack: ["Kubernetes", "Terraform", "AWS EKS", "ArgoCD", "Prometheus"],
-    description: "Architected cloud-native infrastructure across 3 regions with automated failover, achieving 40% cost reduction through intelligent scaling.",
+    name: "Digital Mortgage Processing Platform",
+    stack: ["Ruby on Rails", "PostgreSQL", "AWS", "ReactJS"],
+    description: "Leading development of a comprehensive digital mortgage processing system with automated workflows and secure document management.",
   },
   {
-    name: "Event-Driven Microservices Platform",
-    stack: ["Ruby on Rails", "Redis", "Kafka", "gRPC", "Docker"],
-    description: "Migrated monolithic architecture to event-driven microservices, improving deployment frequency by 10x and reducing MTTR by 80%.",
+    name: "AI-powered Cancer Diagnosis System",
+    stack: ["Ruby on Rails", "Python", "AI Models", "Google Cloud Platform", "PostgreSQL", "ReactJS"],
+    description: "Designed solutions leveraging and fine-tuning pre-trained AI models, implemented AWS architecture, and developed features for medical diagnosis system.",
   },
+  {
+    name: "B2B Cosmetics Ordering System",
+    stack: ["Ruby on Rails", "ReactJS", "MySQL", "Redis", "AWS"],
+    description: "Designed and implemented AWS architecture for B2B e-commerce platform. Led team of 8 developers in building scalable ordering system.",
+  },
+  {
+    name: "Drill Bit Position Standardization Module",
+    stack: ["Python", "Django", "MySQL", "AI Models", "NextJs", "AWS"],
+    description: "Designed solutions leveraging and fine-tuning pre-trained AI models for industrial automation. Implemented AWS architecture and developed core features.",
+  },
+  {
+    name: "Kindergarten Timesheet Management System",
+    stack: ["Ruby on Rails", "MySQL", "IoT", "ReactJS", "MQTT"],
+    description: "Led team of 10 in building IoT-integrated timesheet system with real-time tracking and automated reporting for educational institutions.",
+  },
+  {
+    name: "Alumni Community Service for the Unemployed",
+    stack: ["Ruby on Rails", "MySQL", "DynamoDB", "Sinatra", "VueJs", "VueX", "Websocket"],
+    description: "Designed and implemented the API architecture and foundational services. Built a real-time chat module integrated across the entire system. Proposed and implemented a secure file upload strategy to prevent malware from being uploaded to the server.",
+  }
 ];
 
 const FeaturedProjects = () => {

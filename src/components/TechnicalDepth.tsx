@@ -7,12 +7,13 @@ import { Server, Cloud, Database } from "lucide-react";
 const modules = [
   {
     icon: Server,
-    label: "BACKEND",
-    title: "Backend & APIs",
+    label: "FULL STACK",
+    title: "Full Stack Development",
     items: [
-      { name: "Ruby on Rails", level: 95 },
-      { name: "RESTful & GraphQL APIs", level: 90 },
-      { name: "Event-driven Architecture", level: 92 },
+      { name: "Ruby on Rails", level: 100 },
+      { name: "RESTful & GraphQL APIs & gRPC", level: 90 },
+      { name: "ReactJS & NextJS", level: 80 },
+      { name: "MySQL & PostgreSQL & NoSQL", level: 95 },
       { name: "Microservices Design", level: 88 },
     ],
   },
@@ -21,10 +22,11 @@ const modules = [
     label: "CLOUD",
     title: "Cloud & DevOps",
     items: [
-      { name: "AWS (EC2, EKS, Lambda, S3)", level: 93 },
-      { name: "Docker & Kubernetes", level: 90 },
-      { name: "Terraform & IaC", level: 85 },
-      { name: "CI/CD Pipelines", level: 88 },
+      { name: "AWS", level: 90 },
+      { name: "Google Cloud Platform", level: 80 },
+      { name: "Docker & Kubernetes", level: 80 },
+      { name: "CI/CD Pipelines", level: 90 },
+      { name: "System Architecture", level: 80 },
     ],
   },
   {

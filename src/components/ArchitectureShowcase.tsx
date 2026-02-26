@@ -6,29 +6,40 @@ import { useRef } from "react";
 
 const architectures = [
   {
-    title: "Event-driven Data Synchronization",
-    problem: "Real-time data consistency across distributed microservices with minimal latency and zero data loss.",
-    stack: ["AWS", "Kafka", "PostgreSQL", "Redis", "Docker"],
+    title: "Microservices",
+    problem:
+      "Designing a scalable microservices architecture for enterprise financial health analytics with secure data isolation and reliable reporting.",
+    stack: [
+      "Ruby on Rails",
+      "MySQL & PostgreSQL",
+      "NestJs",
+      "NextJs",
+      "GraphQL",
+      "gRPC",
+      "AWS",
+      "Docker",
+    ],
     metrics: [
-      { label: "Latency", value: "<50ms" },
-      { label: "Throughput", value: "10K msg/s" },
-      { label: "Uptime", value: "99.99%" },
+      { label: "Services", value: "10+" },
+      { label: "Team size", value: "20" },
+      { label: "Uptime", value: "99.9%" },
     ],
   },
   {
-    title: "RAG-based Knowledge Management",
-    problem: "Intelligent document retrieval and answer generation from enterprise knowledge bases using vector search.",
-    stack: ["Python", "OpenAI", "PostgreSQL", "pgvector", "FastAPI"],
+    title: "AI‑Powered Platform",
+    problem:
+      "Building a RAG-based document intelligence system that can search, retrieve, and summarize large volumes of documents with high accuracy.",
+    stack: ["Python", "AI Models", "PostgreSQL", "pgvector", "FastAPI", "ReactJS", "AWS"],
     metrics: [
-      { label: "Accuracy", value: "94%" },
-      { label: "Response", value: "<2s" },
-      { label: "Docs indexed", value: "500K+" },
+      { label: "Docs indexed", value: "50K+" },
+      { label: "Answer accuracy", value: ">80%" },
+      { label: "Response time", value: "<2s" },
     ],
   },
   {
     title: "Cloud-native Deployment Architecture",
     problem: "Zero-downtime deployments with auto-scaling, observability, and cost optimization across multi-region.",
-    stack: ["Kubernetes", "Terraform", "AWS EKS", "Prometheus", "ArgoCD"],
+    stack: ["Kubernetes", "Terraform", "AWS EKS", "Prometheus", "Grafana", "ArgoCD", "Ceph", "Loki", "HelmChart", "Docker"],
     metrics: [
       { label: "Deploy time", value: "<3min" },
       { label: "Cost saved", value: "40%" },
